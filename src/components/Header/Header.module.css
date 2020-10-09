@@ -1,0 +1,68 @@
+header {
+  background: rgb(63, 61, 73);
+  height: 7em;
+  color: white;
+  margin: 0 0 1vh 0;
+  text-align: justify;
+}
+
+header::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+header > div,
+header > div::before,
+header nav,
+header div h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header > div {
+  height: 100%
+}
+
+header > div::before {
+  content: '';
+  height: 100%;
+}
+
+header > div h1 {
+  font-size: 2.2em;
+  font-style: italic;
+}
+
+header > div h6 {
+  font-size: 1em;
+  font-size: italic;
+}
+
+header nav a {
+  padding: 0 0.6em;
+  white-space: nowrap;
+}
+
+header nav a:last-child {
+  padding-right: 0;
+}
+
+h1 {
+  margin: 0 0 0 2vw;
+}
+
+h6 {
+  margin: -2em 0 0 2vw
+}
+
+.iconlink {
+  position: relative;
+  height: 2.5em;
+  margin-right: 0.2em;
+}
+
+nav {
+  float: right;
+  margin: 2em 2em 0 0;
+}
